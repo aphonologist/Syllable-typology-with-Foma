@@ -1,0 +1,395 @@
+('<V]', 'c', '[CV]', '<VC>', '<V]<V]', 'cc', '[CVC>', '<V][CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CV][{CCVC>')
+Dep>>ParseSeg
+Max>>ParseSeg
+NoCoda>>ComplexOnset
+ParseSeg>>ComplexCoda
+ParseSeg>>NoCoda
+ParseSeg>>Onset
+('<V]', 'c', '[CV]', '<VC>', '<V]<V]', 'cc', '[CVC>', '<V][CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>NoCoda
+Dep>>ParseSeg
+Max>>ParseSeg
+ParseSeg>>ComplexCoda
+ParseSeg>>ComplexOnset
+ParseSeg>>Onset
+('v', 'c', '[CV]', 'vc', 'vv', 'cc', '[CVC>', 'v[CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CV][{CCVC>')
+Dep>>ParseSeg
+Max>>ParseSeg
+NoCoda>>ComplexOnset
+Onset>>ComplexOnset
+Onset>>ParseSeg
+ParseSeg>>ComplexCoda
+ParseSeg>>NoCoda
+('v', 'c', '[CV]', 'vc', 'vv', 'cc', '[CVC>', 'v[CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>NoCoda
+Dep>>ParseSeg
+Max>>ParseSeg
+Onset>>NoCoda
+Onset>>ParseSeg
+ParseSeg>>ComplexCoda
+ParseSeg>>ComplexOnset
+('v', 'c', '[CV]', 'vc', 'vv', 'cc', '[CV]c', 'v[CV]', '[{CCV]cc', '[CV][CV][CV]', '[CV][{CCV]c')
+Dep>>ParseSeg
+Max>>ParseSeg
+NoCoda>>ParseSeg
+Onset>>ParseSeg
+ParseSeg>>ComplexOnset
+('v', 'c', '[CV]', 'vc', 'vv', 'cc', '[CV]c', 'v[CV]', 'c[CV]cc', '[CV][CV][CV]', '[CV]c[CV]c')
+ComplexOnset>>ParseSeg
+Dep>>ParseSeg
+Max>>ParseSeg
+NoCoda>>ParseSeg
+Onset>>ParseSeg
+('v', 'c', '[CV]', 'vc', 'vv', 'cc', '[CVC>', 'v[CV]', '[{CCVC>c', '[CV][CV][CV]', '[CV][{CCVC>')
+ComplexCoda>>ComplexOnset
+ComplexCoda>>ParseSeg
+Dep>>ParseSeg
+Max>>ParseSeg
+NoCoda>>ComplexOnset
+Onset>>ComplexOnset
+Onset>>ParseSeg
+ParseSeg>>NoCoda
+('v', 'c', '[CV]', 'vc', 'vv', 'cc', '[CVC>', 'v[CV]', '[{CCVC>c', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>NoCoda
+ComplexCoda>>ParseSeg
+ComplexOnset>>NoCoda
+Dep>>ParseSeg
+Max>>ParseSeg
+Onset>>NoCoda
+Onset>>ParseSeg
+ParseSeg>>ComplexOnset
+('v', 'c', '[CV]', 'vc', 'vv', 'cc', '[CVC>', 'v[CV]', 'c[CVC>c', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>ParseSeg
+ComplexOnset>>ParseSeg
+Dep>>ParseSeg
+Max>>ParseSeg
+Onset>>ParseSeg
+ParseSeg>>NoCoda
+('v', 'c', '[CV]', 'vc', 'vv', 'cc', '[CVC>', 'v[CV]', 'c[CVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>ParseSeg
+Dep>>ParseSeg
+Max>>ParseSeg
+Onset>>ParseSeg
+ParseSeg>>ComplexCoda
+ParseSeg>>NoCoda
+('<V]', 'c', '[CV]', '<V]c', '<V]<V]', 'cc', '[CV]c', '<V][CV]', '[{CCV]cc', '[CV][CV][CV]', '[CV][{CCV]c')
+Dep>>ParseSeg
+Max>>ParseSeg
+NoCoda>>ParseSeg
+ParseSeg>>ComplexOnset
+ParseSeg>>Onset
+('<V]', 'c', '[CV]', '<V]c', '<V]<V]', 'cc', '[CV]c', '<V][CV]', 'c[CV]cc', '[CV][CV][CV]', '[CV]c[CV]c')
+ComplexOnset>>ParseSeg
+Dep>>ParseSeg
+Max>>ParseSeg
+NoCoda>>ParseSeg
+ParseSeg>>Onset
+('<V]', 'c', '[CV]', '<VC>', '<V]<V]', 'cc', '[CVC>', '<V][CV]', '[{CCVC>c', '[CV][CV][CV]', '[CV][{CCVC>')
+ComplexCoda>>ComplexOnset
+ComplexCoda>>ParseSeg
+Dep>>ParseSeg
+Max>>ParseSeg
+NoCoda>>ComplexOnset
+ParseSeg>>NoCoda
+ParseSeg>>Onset
+('<V]', 'c', '[CV]', '<VC>', '<V]<V]', 'cc', '[CVC>', '<V][CV]', '[{CCVC>c', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>NoCoda
+ComplexCoda>>ParseSeg
+ComplexOnset>>NoCoda
+Dep>>ParseSeg
+Max>>ParseSeg
+ParseSeg>>ComplexOnset
+ParseSeg>>Onset
+('<V]', 'c', '[CV]', '<VC>', '<V]<V]', 'cc', '[CVC>', '<V][CV]', 'c[CVC>c', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>ParseSeg
+ComplexOnset>>ParseSeg
+Dep>>ParseSeg
+Max>>ParseSeg
+ParseSeg>>NoCoda
+ParseSeg>>Onset
+('<V]', 'c', '[CV]', '<VC>', '<V]<V]', 'cc', '[CVC>', '<V][CV]', 'c[CVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>ParseSeg
+Dep>>ParseSeg
+Max>>ParseSeg
+ParseSeg>>ComplexCoda
+ParseSeg>>NoCoda
+ParseSeg>>Onset
+('<V]', '[CF]', '[CV]', '<VC>', '<V]<V]', '[{CCF]', '[CVC>', '<V][CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CV][{CCVC>')
+Dep>>ComplexCoda
+Dep>>NoCoda
+Dep>>Onset
+Max>>Dep
+NoCoda>>ComplexOnset
+ParseSeg>>ComplexOnset
+ParseSeg>>Dep
+('<V]', '[CF]', '[CV]', '<VC>', '<V]<V]', '[CFC>', '[CVC>', '<V][CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>NoCoda
+Dep>>ComplexCoda
+Dep>>ComplexOnset
+Dep>>Onset
+Max>>Dep
+ParseSeg>>Dep
+ParseSeg>>NoCoda
+('[QV]', '[CF]', '[CV]', '[QVC>', '[QV][QV]', '[{CCF]', '[CVC>', '[QV][CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CV][{CCVC>')
+Dep>>ComplexCoda
+Dep>>NoCoda
+Max>>Dep
+NoCoda>>ComplexOnset
+Onset>>ComplexOnset
+Onset>>Dep
+ParseSeg>>ComplexOnset
+ParseSeg>>Dep
+('[QV]', '[CF]', '[CV]', '[QVC>', '[QV][QV]', '[CFC>', '[CVC>', '[QV][CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>NoCoda
+Dep>>ComplexCoda
+Dep>>ComplexOnset
+Max>>Dep
+Onset>>Dep
+Onset>>NoCoda
+ParseSeg>>Dep
+ParseSeg>>NoCoda
+('[QV]', '[CF]', '[CV]', '[QV][CF]', '[QV][QV]', '[{CCF]', '[CV][CF]', '[QV][CV]', '[{CCV][{CCF]', '[CV][CV][CV]', '[CV][{CCV][CF]')
+Dep>>ComplexOnset
+Max>>Dep
+NoCoda>>Dep
+Onset>>Dep
+ParseSeg>>Dep
+('[QV]', '[CF]', '[CV]', '[QV][CF]', '[QV][QV]', '[CF][CF]', '[CV][CF]', '[QV][CV]', '[CF][CV][CF][CF]', '[CV][CV][CV]', '[CV][CF][CV][CF]')
+ComplexOnset>>Dep
+Max>>Dep
+NoCoda>>Dep
+Onset>>Dep
+ParseSeg>>Dep
+('[QV]', '[CF]', '[CV]', '[QVC>', '[QV][QV]', '[{CCF]', '[CVC>', '[QV][CV]', '[{CCV][{CCF]', '[CV][CV][CV]', '[CV][{CCVC>')
+ComplexCoda>>ComplexOnset
+ComplexCoda>>Dep
+Dep>>NoCoda
+Max>>Dep
+NoCoda>>ComplexOnset
+Onset>>ComplexOnset
+Onset>>Dep
+ParseSeg>>ComplexOnset
+ParseSeg>>Dep
+('[QV]', '[CF]', '[CV]', '[QVC>', '[QV][QV]', '[CFC>', '[CVC>', '[QV][CV]', '[{CCVC>[CF]', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>Dep
+ComplexCoda>>NoCoda
+ComplexOnset>>NoCoda
+Dep>>ComplexOnset
+Max>>Dep
+Onset>>Dep
+Onset>>NoCoda
+ParseSeg>>Dep
+ParseSeg>>NoCoda
+('[QV]', '[CF]', '[CV]', '[QVC>', '[QV][QV]', '[CFC>', '[CVC>', '[QV][CV]', '[CF][CVC>[CF]', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>Dep
+ComplexOnset>>Dep
+Dep>>NoCoda
+Max>>Dep
+Onset>>Dep
+ParseSeg>>Dep
+('[QV]', '[CF]', '[CV]', '[QVC>', '[QV][QV]', '[CFC>', '[CVC>', '[QV][CV]', '[CF][CVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>Dep
+Dep>>ComplexCoda
+Dep>>NoCoda
+Max>>Dep
+Onset>>Dep
+ParseSeg>>Dep
+('<V]', '[CF]', '[CV]', '<V][CF]', '<V]<V]', '[{CCF]', '[CV][CF]', '<V][CV]', '[{CCV][{CCF]', '[CV][CV][CV]', '[CV][{CCV][CF]')
+Dep>>ComplexOnset
+Dep>>Onset
+Max>>Dep
+NoCoda>>Dep
+ParseSeg>>Dep
+('<V]', '[CF]', '[CV]', '<V][CF]', '<V]<V]', '[CF][CF]', '[CV][CF]', '<V][CV]', '[CF][CV][CF][CF]', '[CV][CV][CV]', '[CV][CF][CV][CF]')
+ComplexOnset>>Dep
+Dep>>Onset
+Max>>Dep
+NoCoda>>Dep
+ParseSeg>>Dep
+('<V]', '[CF]', '[CV]', '<VC>', '<V]<V]', '[{CCF]', '[CVC>', '<V][CV]', '[{CCV][{CCF]', '[CV][CV][CV]', '[CV][{CCVC>')
+ComplexCoda>>ComplexOnset
+ComplexCoda>>Dep
+Dep>>NoCoda
+Dep>>Onset
+Max>>Dep
+NoCoda>>ComplexOnset
+ParseSeg>>ComplexOnset
+ParseSeg>>Dep
+('<V]', '[CF]', '[CV]', '<VC>', '<V]<V]', '[CFC>', '[CVC>', '<V][CV]', '[{CCV][CFC>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>Dep
+ComplexCoda>>NoCoda
+ComplexOnset>>NoCoda
+Dep>>ComplexOnset
+Dep>>Onset
+Max>>Dep
+Onset>>NoCoda
+ParseSeg>>Dep
+ParseSeg>>NoCoda
+('<V]', '[CF]', '[CV]', '<VC>', '<V]<V]', '[CFC>', '[CVC>', '<V][CV]', '[{CCVC>[CF]', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>Dep
+ComplexCoda>>NoCoda
+ComplexOnset>>NoCoda
+Dep>>ComplexOnset
+Max>>Dep
+NoCoda>>Onset
+ParseSeg>>Dep
+ParseSeg>>NoCoda
+('<V]', '[CF]', '[CV]', '<VC>', '<V]<V]', '[CFC>', '[CVC>', '<V][CV]', '[CF][CV][CFC>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>Dep
+ComplexCoda>>NoCoda
+ComplexOnset>>Dep
+ComplexOnset>>NoCoda
+Dep>>Onset
+Max>>Dep
+Onset>>NoCoda
+ParseSeg>>Dep
+ParseSeg>>NoCoda
+('<V]', '[CF]', '[CV]', '<VC>', '<V]<V]', '[CFC>', '[CVC>', '<V][CV]', '[CF][CVC>[CF]', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>Dep
+ComplexCoda>>Onset
+ComplexOnset>>Dep
+ComplexOnset>>Onset
+Dep>>NoCoda
+Max>>Dep
+NoCoda>>Onset
+ParseSeg>>Dep
+ParseSeg>>Onset
+('<V]', '[CF]', '[CV]', '<VC>', '<V]<V]', '[CFC>', '[CVC>', '<V][CV]', '[CF][CVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>Dep
+Dep>>ComplexCoda
+Dep>>NoCoda
+Dep>>Onset
+Max>>Dep
+ParseSeg>>Dep
+('<V]', 'k', '[CV]', '<VC>', '<V]<V]', 'kk', '[CVC>', '<V][CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CV][{CCVC>')
+Dep>>ComplexOnset
+Dep>>Max
+Max>>ComplexCoda
+Max>>NoCoda
+Max>>Onset
+NoCoda>>ComplexOnset
+ParseSeg>>ComplexOnset
+ParseSeg>>Max
+('<V]', 'k', '[CV]', '<VC>', '<V]<V]', 'kk', '[CVC>', '<V][CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>NoCoda
+Dep>>Max
+Dep>>NoCoda
+Max>>ComplexCoda
+Max>>ComplexOnset
+Max>>Onset
+ParseSeg>>Max
+ParseSeg>>NoCoda
+('w', 'k', '[CV]', 'wk', 'ww', 'kk', '[CVC>', 'w[CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CV][{CCVC>')
+Dep>>ComplexOnset
+Dep>>Max
+Max>>ComplexCoda
+Max>>NoCoda
+NoCoda>>ComplexOnset
+Onset>>ComplexOnset
+Onset>>Max
+ParseSeg>>ComplexOnset
+ParseSeg>>Max
+('w', 'k', '[CV]', 'wk', 'ww', 'kk', '[CVC>', 'w[CV]', '[{CCVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>NoCoda
+Dep>>Max
+Dep>>NoCoda
+Max>>ComplexCoda
+Max>>ComplexOnset
+Onset>>Max
+Onset>>NoCoda
+ParseSeg>>Max
+ParseSeg>>NoCoda
+('w', 'k', '[CV]', 'wk', 'ww', 'kk', '[CV]k', 'w[CV]', '[{CCV]kk', '[CV][CV][CV]', '[CV][{CCV]k')
+Dep>>Max
+Max>>ComplexOnset
+NoCoda>>Max
+Onset>>Max
+ParseSeg>>Max
+('w', 'k', '[CV]', 'wk', 'ww', 'kk', '[CV]k', 'w[CV]', 'k[CV]kk', '[CV][CV][CV]', '[CV]k[CV]k')
+ComplexOnset>>Max
+Dep>>Max
+NoCoda>>Max
+Onset>>Max
+ParseSeg>>Max
+('w', 'k', '[CV]', 'wk', 'ww', 'kk', '[CVC>', 'w[CV]', '[{CCVC>k', '[CV][CV][CV]', '[CV][{CCVC>')
+ComplexCoda>>ComplexOnset
+ComplexCoda>>Max
+Dep>>ComplexOnset
+Dep>>Max
+Max>>NoCoda
+NoCoda>>ComplexOnset
+Onset>>ComplexOnset
+Onset>>Max
+ParseSeg>>ComplexOnset
+ParseSeg>>Max
+('w', 'k', '[CV]', 'wk', 'ww', 'kk', '[CVC>', 'w[CV]', '[{CCVC>k', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>Max
+ComplexCoda>>NoCoda
+ComplexOnset>>NoCoda
+Dep>>Max
+Dep>>NoCoda
+Max>>ComplexOnset
+Onset>>Max
+Onset>>NoCoda
+ParseSeg>>Max
+ParseSeg>>NoCoda
+('w', 'k', '[CV]', 'wk', 'ww', 'kk', '[CVC>', 'w[CV]', 'k[CVC>k', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>Max
+ComplexOnset>>Max
+Dep>>Max
+Max>>NoCoda
+Onset>>Max
+ParseSeg>>Max
+('w', 'k', '[CV]', 'wk', 'ww', 'kk', '[CVC>', 'w[CV]', 'k[CVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>Max
+Dep>>Max
+Max>>ComplexCoda
+Max>>NoCoda
+Onset>>Max
+ParseSeg>>Max
+('<V]', 'k', '[CV]', '<V]k', '<V]<V]', 'kk', '[CV]k', '<V][CV]', '[{CCV]kk', '[CV][CV][CV]', '[CV][{CCV]k')
+Dep>>Max
+Max>>ComplexOnset
+Max>>Onset
+NoCoda>>Max
+ParseSeg>>Max
+('<V]', 'k', '[CV]', '<V]k', '<V]<V]', 'kk', '[CV]k', '<V][CV]', 'k[CV]kk', '[CV][CV][CV]', '[CV]k[CV]k')
+ComplexOnset>>Max
+Dep>>Max
+Max>>Onset
+NoCoda>>Max
+ParseSeg>>Max
+('<V]', 'k', '[CV]', '<VC>', '<V]<V]', 'kk', '[CVC>', '<V][CV]', '[{CCVC>k', '[CV][CV][CV]', '[CV][{CCVC>')
+ComplexCoda>>ComplexOnset
+ComplexCoda>>Max
+Dep>>ComplexOnset
+Dep>>Max
+Max>>NoCoda
+Max>>Onset
+NoCoda>>ComplexOnset
+ParseSeg>>ComplexOnset
+ParseSeg>>Max
+('<V]', 'k', '[CV]', '<VC>', '<V]<V]', 'kk', '[CVC>', '<V][CV]', '[{CCVC>k', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>Max
+ComplexCoda>>NoCoda
+ComplexOnset>>NoCoda
+Dep>>Max
+Dep>>NoCoda
+Max>>ComplexOnset
+Max>>Onset
+ParseSeg>>Max
+ParseSeg>>NoCoda
+('<V]', 'k', '[CV]', '<VC>', '<V]<V]', 'kk', '[CVC>', '<V][CV]', 'k[CVC>k', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexCoda>>Max
+ComplexOnset>>Max
+Dep>>Max
+Max>>NoCoda
+Max>>Onset
+ParseSeg>>Max
+('<V]', 'k', '[CV]', '<VC>', '<V]<V]', 'kk', '[CVC>', '<V][CV]', 'k[CVCC}>', '[CV][CV][CV]', '[CVC>[CVC>')
+ComplexOnset>>Max
+Dep>>Max
+Max>>ComplexCoda
+Max>>NoCoda
+Max>>Onset
+ParseSeg>>Max
