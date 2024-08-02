@@ -9,7 +9,7 @@ The Python script iterates through all possible rankings of the constraints
 * *ComplexOnset
 * *ComplexCoda
 
-generates the Foma grammar and collects the SRs for each of the URs
+generates the Foma grammar, runs it (thanks to Jonathan North Washington for his help with ``subprocess``), and collects the SRs for each of the URs
 
 * v
 * c
