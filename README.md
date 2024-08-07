@@ -1,4 +1,4 @@
-This repo contains an implementation of finite-state syllabification in OT using Foma ([Hulden 2009](http://hdl.handle.net/10150/196112)).
+This repo contains an implementation of syllabification typology in finite-state Optimality Theory using Foma ([Hulden 2009](http://hdl.handle.net/10150/196112)).
 
 The Python script iterates through all possible rankings of the constraints below (defined up to ten violations following [Karttunen 1998](https://aclanthology.org/W98-1301/))
 
