@@ -55,5 +55,5 @@ Key to representations:
 * < = left boundary without onset
 * [{ = left boundary with complex onset
 * ] = right boundary without coda
-* > = right boundary with coda
+* \> = right boundary with coda
 * }> = right boundary with complex coda
