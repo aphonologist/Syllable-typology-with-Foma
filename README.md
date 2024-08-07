@@ -1,6 +1,6 @@
 This repo contains an implementation of finite-state syllabification in OT using Foma ([Hulden 2009](https://aclanthology.org/E09-2008/)).
 
-The Python script iterates through all possible rankings of the constraints below (defined up to ten violations following [Karttunen 1998](https://aclanthology.org/W98-1301.pdf))
+The Python script iterates through all possible rankings of the constraints below (defined up to ten violations following [Karttunen 1998](https://aclanthology.org/W98-1301/))
 
 * Mᴀx
 * Dᴇᴘ
