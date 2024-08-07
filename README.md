@@ -1,15 +1,15 @@
 This repo contains an implementation of finite-state syllabification in OT using Foma ([Hulden 2009](https://aclanthology.org/E09-2008/)).
 
-The Python script iterates through all possible rankings of the constraints
+The Python script iterates through all possible rankings of the constraints below (defined up to ten violations following [Karttunen 1998](https://aclanthology.org/W98-1301.pdf))
 
-* Max
-* Dep
-* Onset
-* NoCoda
-* *ComplexOnset
-* *ComplexCoda
+* <span style="font-variant:small-caps;">Max</span>
+* <span style="font-variant:small-caps;">Dep</span>
+* <span style="font-variant:small-caps;">Onset</span>
+* <span style="font-variant:small-caps;">NoCoda</span>
+* <span style="font-variant:small-caps;">*ComplexOnset</span>
+* <span style="font-variant:small-caps;">*ComplexCoda</span>
 
-generates the Foma grammar, runs it (thanks to Jonathan North Washington for his help with ``subprocess``), and collects the SRs for each of the URs
+generates the OT grammar in Foma, runs it (thanks to Jonathan North Washington for his help with the ``subprocess`` module), and collects the SRs for each of the URs
 
 * v
 * c
@@ -23,11 +23,13 @@ generates the Foma grammar, runs it (thanks to Jonathan North Washington for his
 * cvcvcv
 * cvccvc
 
-For this script to run, Foma must be installed (run ``apt install foma``).
+The <span style="font-variant:small-caps;">Gen</span> function inserts and deletes consonants and vowels and creates syllables. Syllables contain exactly one vowel and do not contain any deleted segments.
+
+For the script to run, Foma must be installed (run ``apt install foma``).
 
 The output contains each language with its necessary rankings, e.g.,
 
-> ('v', 'c', '(CV)', 'vc', 'vv', 'cc', '(CV)c', 'v(CV)', 'c(CV)cc', '(CV)(CV)(CV)', '(CV)c(CV)c')
+> ('v', 'c', '[CV]', 'vc', 'vv', 'cc', '[CV]c', 'v[CV]', 'c[CV]cc', '[CV][CV][CV]', '[CV]c[CV]c')
 
 > ComplexOnset>>ParseSeg
 
@@ -47,6 +49,11 @@ Key to representations:
 * w = deleted vowel
 * Q/q = inserted consonant
 * F/f = inserted vowel
-* ( ) = syllable boundaries
-* CAPITAL = syllabified
-* lowercase = unsyllabified
+* C/V/Q/F = syllabified segments
+* c/v/q/f/k/w = unsyllabified segments
+* [ = left boundary with simple onset
+* < = left boundary without onset
+* [{ = left boundary with complex onset
+* ] = right boundary without coda
+* > = right boundary with coda
+* }> = right boundary with complex coda
