@@ -2,12 +2,12 @@ This repo contains an implementation of finite-state syllabification in OT using
 
 The Python script iterates through all possible rankings of the constraints below (defined up to ten violations following [Karttunen 1998](https://aclanthology.org/W98-1301.pdf))
 
-* <span style="font-variant:small-caps;">Max</span>
-* <span style="font-variant:small-caps;">Dep</span>
-* <span style="font-variant:small-caps;">Onset</span>
-* <span style="font-variant:small-caps;">NoCoda</span>
-* <span style="font-variant:small-caps;">*ComplexOnset</span>
-* <span style="font-variant:small-caps;">*ComplexCoda</span>
+* Mᴀx
+* Dᴇᴘ
+* Oɴsᴇᴛ
+* NᴏCᴏᴅᴀ
+* *CᴏᴍᴘʟᴇxOɴsᴇᴛ
+* *CᴏᴍᴘʟᴇxCᴏᴅᴀ
 
 generates the OT grammar in Foma, runs it (thanks to Jonathan North Washington for his help with the ``subprocess`` module), and collects the SRs for each of the URs
 
@@ -23,7 +23,7 @@ generates the OT grammar in Foma, runs it (thanks to Jonathan North Washington f
 * cvcvcv
 * cvccvc
 
-The <span style="font-variant:small-caps;">Gen</span> function inserts and deletes consonants and vowels and creates syllables. Syllables contain exactly one vowel and do not contain any deleted segments.
+The Gᴇɴ function inserts and deletes consonants and vowels and creates syllables. Syllables contain exactly one vowel and do not contain any deleted segments.
 
 For the script to run, Foma must be installed (run ``apt install foma``).
 
