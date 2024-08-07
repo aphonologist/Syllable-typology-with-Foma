@@ -27,7 +27,7 @@ For this script to run, Foma must be installed (run ``apt install foma``).
 
 The output contains each language with its necessary rankings, e.g.,
 
-> ('v', 'c', '[CV]', 'vc', 'vv', 'cc', '[CV]c', 'v[CV]', 'c[CV]cc', '[CV][CV][CV]', '[CV]c[CV]c')
+> ('v', 'c', '(CV)', 'vc', 'vv', 'cc', '(CV)c', 'v(CV)', 'c(CV)cc', '(CV)(CV)(CV)', '(CV)c(CV)c')
 
 > ComplexOnset>>ParseSeg
 
@@ -39,4 +39,14 @@ The output contains each language with its necessary rankings, e.g.,
 
 > Onset>>ParseSeg
 
-Representations are explained in the Foma code; they are medium transparent.
+Key to representations:
+
+* C/c = underlying consonant
+* V/v = underlying vowel
+* k = deleted consonant
+* w = deleted vowel
+* Q/q = inserted consonant
+* F/f = inserted vowel
+* ( ) = syllable boundaries
+* CAPITAL = syllabified
+* lowercase = unsyllabified
