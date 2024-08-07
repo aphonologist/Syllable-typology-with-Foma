@@ -9,7 +9,7 @@ The Python script iterates through all possible rankings of the constraints belo
 * *CᴏᴍᴘʟᴇxOɴsᴇᴛ
 * *CᴏᴍᴘʟᴇxCᴏᴅᴀ
 
-generates the OT grammar in Foma, runs it (thanks to Jonathan North Washington for his help with the ``subprocess`` module), and collects the SRs for each of the URs
+generates the OT grammar in Foma, runs it (thanks to Jonathan North Washington for his help with the ``subprocess`` module), and collects the SRs for each of the URs below
 
 * v
 * c
